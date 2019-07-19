@@ -39,6 +39,7 @@ a.current {
 }
 
 div#transBoxNav {
+  -webkit-transform:translate3d(0,0,0);
   z-index: -1;
   position: absolute;
   top: 2em;
@@ -58,6 +59,7 @@ div#transBoxNav {
 
 
 div#transBoxBackground {
+  -webkit-transform:translate3d(0,0,0);
   z-index: -1;
   position: absolute;
   top: 8em;
@@ -119,6 +121,7 @@ div#background {
 @media screen and (max-width: 900px) {
 
   div#transBoxBackground {
+    -webkit-transform:translate3d(0,0,0);
     z-index: -1;
     position: absolute;
     top: 8em;
