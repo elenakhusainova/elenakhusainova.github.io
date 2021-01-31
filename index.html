@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Elena Khusainova">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico?v1" type="image/x-icon">
-    <!-- <link rel="icon" type="image/x-icon" href="EK.ico"/> -->
-    <title>Elena Khusainova</title>
-  </head>
-  <body>
-    <div id="background"></div>
-    <!-- Top navigation bar -->
-    <div id="transBoxNav"></div>
-    <ul class="navBar">
-      <li class="navBar"><a href="cv.html" target="_blank"><b>CV</b></a></li>
-      <li class="navBar"><a href="contacts.html"><b>Contacts</b></a></li>
-      <li class="navBar"><a href="research.html"><b>Research</b></a></li>
-      <li class="navBar"><a class="current" href="index.html"><b>Home</b></a></li>
-    </ul>
+<head>
+  <meta charset="utf-8">
+  <title>Elena Khusainova's personal page</title>
+  <link rel="shortcut icon" href="favicon.ico?v1" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
+<body>
+  <div id="body">
 
-    <!-- My photo -->
-    <img id="myPhoto" src="img/me.png">
-    <!-- My intro -->
-    <p id="myIntro"> I am currently a 6th year PhD student in the department of
-      Statistics and Data Science at Yale University and working with David
-      Pollard on Respondent Driven Sampling.<br/><br/>
-      I am also working as a no cost collaborator with AT&T Labs - Statistics
-      Research team on developing tools for Interpretable Machine Learning.
-    </p>
+    <div style="background-color:#333333; padding-top:40px;"></div>
 
-    <div id="transBoxBackground"></div>
-  </body>
+    <header id="header">
+      <h1>Elena Khusainova's personal page</h1>
+    </header>
+
+    <div id="navbar">
+      <ul>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a style="color:#7c8fa1;" href="index.html">Home</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <img id="my-photo" src="img/me.png" alt="Elena">
+      <div id="my-intro">
+        <h1>Welcome!</h1>
+        <br /> <br />
+	<p>I am currently a lecturer at the department of Statistics
+          and Data Science at Yale University.</p>
+        <br />
+        <p>Last year I graduated from the department of Statistics
+          and Data Science at Yale University, where I worked with David Pollard on
+          Respondent Driven Sampling.
+        </p>
+        <br />
+        <p>I am also working on developing tools for Interpretable Machine
+          Learning in collaboration with the Statistics
+          Research team at AT&T Labs.
+        </p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p> Copyright &copy; 2020 Elena Khusainova
+      </p>
+    </div>
+  </div> <!-- id="body" -->
+</body>
 </html>

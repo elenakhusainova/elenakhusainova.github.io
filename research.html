@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Elena Khusainova</title>
-  </head>
-  <body>
-    <div id="background"></div>
-    <div id="transBoxBackground"></div>
+<head>
+  <meta charset="utf-8">
+  <title>Elena Khusainova's personal page</title>
+  <link rel="shortcut icon" href="favicon.ico?v1" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-    <!-- Top navigation bar -->
-    <div id="transBoxNav"></div>
-    <ul class="navBar">
-      <li class="navBar"><a href="cv.html" target="_blank"><b>CV</b></a></li>
-      <li class="navBar"><a href="contacts.html"><b>Contacts</b></a></li>
-      <li class="navBar"><a class="current" href="research.html"><b>Research</b></a></li>
-      <li class="navBar"><a href="index.html"><b>Home</b></a></li>
-    </ul>
+<body>
+  <div id="body">
+    <div style="background-color:#333333; padding-top:40px;"></div>
 
-    <div id="inBoxL">
-      <a href="perturbationTheory.html" target="_blank"><b><font size="+2">
-        Perturbation theory for Markov-type concentration of Markov chains.
-      </font></b></a>
+    <header id="header">
+      <h1>Elena Khusainova's personal page</h1>
+    </header>
+
+    <div id="navbar">
+      <ul>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a style="color:#7c8fa1;" href="research.html">Research</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
     </div>
-    <div class="transboxBig"></div>
 
-  </body>
+    <div class="work">
+      <h2>Work-in-progress:</h2>
+      <br>
+      <ul>
+        <li>Perturbation theory for Markov-type concentration of Markov chains. <a href="files/pertTheory.html" target="_blank">Read more -- paper</a></li>
+        <li>SOAR: Simultaneous Or of And Rules for classification of positive and negative classes. <a href="https://github.com/elenakhusainova/ORAND" target="_blank"> GitHub</a> and <a href="https://arxiv.org/pdf/2008.11249.pdf" target="_blank"> paper </a></li>
+      </ul>
+    </div>
+
+    <div class="work">
+      <h2>Past projects:</h2>
+      <br>
+      <ul>
+        <li><a href="#"></a>Internship with AT&T Labs Research.</li>
+        <li><a href="files/EPIshiny.html">Shiny app for EPI</a>: a vizualisation and data expolation tool.</li>
+        <!-- <li>Project with <a href="https://ling.yale.edu/people/claire-bowern" target="_blank">prof. Claire Bowern (Yale University)</a>  on language classification with Random Forests. <a href="#">Read more</a></li> -->
+      </ul>
+    </div>
+
+    <div class="work">
+      <h2>Technical notes:</h2>
+      <br>
+      <ul>
+        <li><a href="../Blog/1_ShinyAWS/ShinyAWS.html" target="_blank">Installing R and RShiny on AWS</a></li>
+      </ul>
+    </div>
+
+    <div id="footer">
+      <p> Copyright &copy; 2020 Elena Khusainova
+      </p>
+    </div>
+  </div> <!-- id="body" -->
+</body>
 </html>
